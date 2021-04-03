@@ -1,6 +1,7 @@
 const App = () => {
     // Dark theme
     const header = document.querySelector('.headet__main')
+    const headerFull = document.querySelector('.header__allin')
     const darkness = document.querySelectorAll('.darkness')
     const fullTheme = document.querySelector('.section_theme')
     const theme = document.querySelector('.section_theme__background')
@@ -36,6 +37,7 @@ const App = () => {
             theme.classList.add('active__theme')
             themeCircle.classList.add('active__circle')
             header.classList.add('active-night')
+            headerFull.classList.add('active-night')
             howWorks1.classList.add('super__dark')
             howWorks2.classList.add('slight__dark')
             zooPets.classList.add('super__dark')
@@ -60,6 +62,7 @@ const App = () => {
             theme.classList.remove('active__theme')
             themeCircle.classList.remove('active__circle')
             header.classList.remove('active-night')
+            headerFull.classList.remove('active-night')
             howWorks1.classList.remove('super__dark')
             howWorks2.classList.remove('slight__dark')
             zooPets.classList.remove('super__dark')

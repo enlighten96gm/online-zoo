@@ -1,7 +1,15 @@
 * {
     margin: 0 auto;
+    display: border-box;
 }
 header {
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.header__allin {
     position: relative;
     transition: 0.5s;
     display: flex;
@@ -9,6 +17,7 @@ header {
     height: 94px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+    margin: 0 auto;
 }
 h1 {
     opacity: 0%;
@@ -117,16 +126,21 @@ a {
     color: white;
 }
 .watch-animal {
-    background-image: url(./img/c943320ad3108a9df74d872d87e9ecf9.jpeg);
-    position: relative;
+    background-image: url(./img/mainImg.png);
     background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.watch-animal__container {
+    position: relative;
     background-size: cover;
     width: 1920px;
     height: 940px;
     overflow: hidden;
 }
-.watch-animal__container {
+.watch-animal__container__allin {
     padding: 0px 151px;
+    margin: 0 auto;
 }
 .watch-animal__text {
     position: absolute;
@@ -165,13 +179,13 @@ a {
 }
 .watch-animal__button_triangle {
     position: absolute;
-    left: 25px;
-    bottom: 20px;
+    left: 23px;
+    bottom: 21px;
     width: 0px;
     height: 0px;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 15px solid white;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 12px solid white;
 }
 .watch-animal__button_text {
     position: relative;
@@ -422,20 +436,27 @@ a {
     color: gray;
     font-size: 14px;
 }
+
 .how-works__container1 {
     transition: 0.5s;
-    width: 1920px;
-    height: 864px;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
-
+}
+.how-works__allin1 {
+    width: 1920px;
+    height: 864px;
+    margin: 0 auto;
 }
 .how-works__container2 {
     transition: 0.5s;
+    background-color: #f2f2f2;
+    
+}
+.how-works__allin2 {
     width: 1920px;
     height: 432px;
-    background-color: #f2f2f2;
     display: flex;
+    margin: 0 auto;
 }
 .how-works__container1_header {
     width: 790px;
@@ -611,9 +632,12 @@ a {
 }
 .zoo-pets {
     transition: 0.5s;
+    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.zoo-pets__allin {
     width: 1920px;
     height: 854px;
-    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+    margin: 0 auto;
 }
 .zoo-pets__header {
     position: relative;
@@ -873,11 +897,14 @@ a {
 }
 /* Pay section */
 .pay-section {
-    width: 1920px;
-    height: 810px;
     transition: 0.5s;
     background-color: #f2f2f2;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.pay-section__allin {
+    width: 1920px;
+    height: 810px;
+    margin: 0 auto;
 }
 .pay-section__header {
     font-family: Roboto, sans-serif;
@@ -958,9 +985,12 @@ a {
 }
 /* Testimonials section */
 .testimonials-section {
+    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.testimonials-section__allin {
     width: 1920px;
     height: 810px;
-    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+    margin: 0 auto;
 }
 .testimonials-section__header {
     width: 790px;
@@ -1127,12 +1157,15 @@ a {
 }
 /* map */
 .section-map {
-    width: 1920px;
-    height: 904px;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.2);
     background-color: #f2f2f2;
+}
+.section-map__allin {
     display: flex;
     flex-direction: column;
+    width: 1920px;
+    height: 904px;
+    margin: 0 auto;
 }
 .section-map__header {
     width: 790px;
@@ -1287,16 +1320,19 @@ a {
     background-position-x: center;
 }
 footer {
-    width: 1920px;
-    height: 751px;
     background-color: #333333;
 }
 .footer-container {
+    width: 1920px;
+    height: 751px;
+}
+.footer-container__allin {
     margin-left: 151px;
     margin-right: 151px;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    margin: 0 auto;
 }
 .footer-container1 {
     display: flex;

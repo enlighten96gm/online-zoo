@@ -2,13 +2,15 @@
     margin: 0 auto;
 }
 header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.headet__main__allin {
     position: relative;
     transition: 0.5s;
     display: flex;
     width: 1920px;
     height: 94px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
 }
 h1 {
     opacity: 0%;
@@ -114,10 +116,12 @@ a {
 }
 /* HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM */
 .map__section_scroll {
-    width: 1920px;
-    height: 1287px;
     background-color: #fffbfb;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.map__section_scroll__allin {
+    width: 1920px;
+    height: 1287px;
 }
 address a {
     font-family: Roboto, sans-serif;
@@ -432,12 +436,12 @@ address a {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 10px;
-    top: 8px;
+    left: 5px;
+    top: 5px;
 }
 .watch_ntm-triangle {
-    border-top: 6px solid transparent;
-    border-bottom: 6px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
     border-left: 12px solid rgba(255, 255, 255, 0.932);
 }
 .watch_ntm-text {
@@ -500,11 +504,13 @@ address a {
 
 
 footer {
-    width: 1920px;
-    height: 751px;
     background-color: #333333;
 }
 .footer-container {
+    width: 1920px;
+    height: 751px;
+}
+.footer-container__allin {
     margin-left: 151px;
     margin-right: 151px;
     display: flex;

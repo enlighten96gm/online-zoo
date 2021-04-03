@@ -2,13 +2,15 @@
     margin: 0 auto;
 }
 header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+}
+.headet__main__allin {
     position: relative;
     transition: 0.5s;
     display: flex;
     width: 1920px;
     height: 94px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
 }
 h1 {
     opacity: 0%;
@@ -118,13 +120,13 @@ a {
 }
 /* HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM HERE IS ONLICE SECTIOM */
 .online__section {
-    width: 1920px;
-    height: 910px;
     background-color: #f8f7f7;
     box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
 }
 .online__section_container {
     display: grid;
+    width: 1920px;
+    height: 910px;
     grid-template-columns: 210px 1000px 400px;
 }
 .map__section-carousel {
@@ -354,11 +356,13 @@ a {
 
 
 footer {
-    width: 1920px;
-    height: 751px;
     background-color: #333333;
 }
 .footer-container {
+    width: 1920px;
+    height: 751px;
+}
+.footer-container__allin {
     margin-left: 151px;
     margin-right: 151px;
     display: flex;
